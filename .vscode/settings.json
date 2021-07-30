@@ -1,4 +1,5 @@
 {
     "editor.wordWrap": "on",
-    "editor.accessibilityPageSize": 9
+    "editor.accessibilityPageSize": 9,
+    "editor.formatOnSave": true
 }
