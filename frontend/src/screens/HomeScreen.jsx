@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Col, Row } from "react-bootstrap";
-import Product from "../components/Product";
+import Product from "../components/Product.jsx";
 import axios from "axios";
 
 const HomeScreen = () => {
