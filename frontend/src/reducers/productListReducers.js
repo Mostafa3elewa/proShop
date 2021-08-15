@@ -4,7 +4,7 @@ import {
   PRODUCT_LIST_SUCCESS,
 } from "../constants/productConstants.js";
 
-export const productListReducer = (state = {}, { type, payload }) => {
+export const productListReducer = (state = { products: [] }, { type, payload }) => {
   switch (type) {
     case PRODUCT_LIST_REQUEST:
       return { loading: true, products: [] };
